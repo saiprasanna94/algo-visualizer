@@ -3,12 +3,18 @@ import BfsVisualizer from '../../bfs-visualizer.jsx'
 import DfsVisualizer from '../../dfs-visualizer.jsx'
 import KmpVisualizer from '../../kmp-visualizer.jsx'
 import QuicksortVisualizer from '../../quicksort-visualizer.jsx'
+import DijkstraVisualizer from '../../dijkstra-visualizer.jsx'
+import MergesortVisualizer from '../../mergesort-visualizer.jsx'
+import HeapsortVisualizer from '../../heapsort-visualizer.jsx'
 
 const TABS = [
   { id: 'bfs', label: 'BFS', Component: BfsVisualizer },
   { id: 'dfs', label: 'DFS', Component: DfsVisualizer },
+  { id: 'dijkstra', label: 'Dijkstra', Component: DijkstraVisualizer },
   { id: 'kmp', label: 'KMP', Component: KmpVisualizer },
   { id: 'quicksort', label: 'Quicksort', Component: QuicksortVisualizer },
+  { id: 'mergesort', label: 'Mergesort', Component: MergesortVisualizer },
+  { id: 'heapsort', label: 'Heapsort', Component: HeapsortVisualizer },
 ]
 
 export default function App() {

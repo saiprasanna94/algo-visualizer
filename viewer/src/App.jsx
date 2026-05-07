@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import BfsVisualizer from '../../bfs-visualizer.jsx'
-import DfsVisualizer from '../../dfs-visualizer.jsx'
-import KmpVisualizer from '../../kmp-visualizer.jsx'
-import QuicksortVisualizer from '../../quicksort-visualizer.jsx'
-import DijkstraVisualizer from '../../dijkstra-visualizer.jsx'
-import MergesortVisualizer from '../../mergesort-visualizer.jsx'
-import HeapsortVisualizer from '../../heapsort-visualizer.jsx'
+import BfsVisualizer from '../../algorithms/bfs-visualizer.jsx'
+import DfsVisualizer from '../../algorithms/dfs-visualizer.jsx'
+import KmpVisualizer from '../../algorithms/kmp-visualizer.jsx'
+import QuicksortVisualizer from '../../algorithms/quicksort-visualizer.jsx'
+import DijkstraVisualizer from '../../algorithms/dijkstra-visualizer.jsx'
+import MergesortVisualizer from '../../algorithms/mergesort-visualizer.jsx'
+import HeapsortVisualizer from '../../algorithms/heapsort-visualizer.jsx'
 
 const TABS = [
   { id: 'bfs', label: 'BFS', Component: BfsVisualizer },
